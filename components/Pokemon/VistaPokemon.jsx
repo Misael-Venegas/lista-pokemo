@@ -80,7 +80,7 @@ const VistaPokemon = () => {
             <input className='inputBusqueda' placeholder='Ingresa el nombre del pokemon' type="text" onChange={(e) => buscarPokemon(e.target.value)} />
             {
                 isLoading ? <p>Cargando pokemons...</p> :
-                    <TablaPokemon listaPokemon={listaPokeom} setListaPokemon={setlistaPokeom} setListaAuxiliarPokemon={setArrayAuxiliar} />
+                    <TablaPokemon listaPokemon={listaPokeom} setListaPokemon={setlistaPokeom} setListaAuxiliarPokemon={setArrayAuxiliar} listaAuxiliar={arrayAuxiliar} />
             }
         </>
     )

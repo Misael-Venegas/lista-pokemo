@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 
-const TablaPokemon = ({ listaPokemon, setListaPokemon, setListaAuxiliarPokemon}) => {
+const TablaPokemon = ({ listaPokemon, setListaPokemon, setListaAuxiliarPokemon, listaAuxiliar}) => {
 
     const eliminarPokemon = (id) => {
-        const arrayAuxiliar = listaPokemon.filter(e => {
+        const arrayAuxiliar = listaAuxiliar.filter(e => {
             return e.id != id
         })
         setListaPokemon(arrayAuxiliar)
