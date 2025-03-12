@@ -40,3 +40,25 @@ a {
     color-scheme: dark;
   }
 }
+
+.seleccionarComponente {
+  cursor: pointer;
+  color: red;
+}
+
+.alertPersonalizado {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: "100%";
+  height: 30px;
+  border-radius: 7px;
+
+}
+
+.inputBusqueda {
+  width: 200;
+  height: 30px;
+  border-radius: 3px;
+}
